@@ -1,4 +1,4 @@
-Server to respond to Github Web URL hooks and execute a something.
+Server to respond to Github Web URL hooks and execute a script.
 
 usage: listen.py [-h] -s SCRIPT
 
