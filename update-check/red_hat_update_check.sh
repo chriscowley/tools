@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash -
 #title          :red_hat_update_check.sh
 #description    :Checks for package updates from Yum repos on RHEL and similar systems
 #author         :Chris Cowley
