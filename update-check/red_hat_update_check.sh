@@ -44,9 +44,9 @@ fi
 
 if [[ ! $quiet ]]
 then 
-  printf "%-40s| %-30s| %-30s\n" "Package" "Installed" "Available"
+  printf "%-40s| %-30s| %-30s\n" "Package" "Available"
   count=1
-  while [[ $count -lt 107 ]]
+  while [[ $count -lt 77 ]]
   do
     printf "%s" "-"
     (( count++ ))
