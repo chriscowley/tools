@@ -60,12 +60,11 @@ do
   then
     package=`echo $inrec | awk '{print $1}'`
     repoversion=`echo $inrec | awk '{print $2}'`
-    localversion=`yum list installed | grep $package | awk '{print $2}'`
     if [[ $quiet ]]
     then
-      echo $package $localversion $repoversion
+      echo $package $repoversion
     else
-      printf "%-40s| %-30s| %-30s\n" $package $localversion $repoversion
+      printf "%-40s| %-30s\n" $package $repoversion
     fi
   fi
 done 
