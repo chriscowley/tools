@@ -62,7 +62,7 @@ do
     repoversion=`echo $inrec | awk '{print $2}'`
     if [[ $quiet ]]
     then
-      echo $package $repoversion
+      echo $package","$repoversion
     else
       printf "%-40s| %-30s\n" $package $repoversion
     fi
